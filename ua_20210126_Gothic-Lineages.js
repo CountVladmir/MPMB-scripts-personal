@@ -24,7 +24,7 @@ RaceList["dhampir"] = {
 	weapons : ["dhampir bite"],
 	vision : ["Darkvision", 60], 
 	languageProfs : [1, "Common"],
-	scorestxt : "Dhampir (+2 to one ability score of my choice, and +1 to a different score of my choice)",
+	scorestxt : "Dhampir (+2 to one ability score of my choice, and +1 to a different score of my choice or three different score by 1)",
 	features : {
 		"bite (empower self)" : {
 			name : "Bite (empower self)",
@@ -34,7 +34,7 @@ RaceList["dhampir"] = {
 			recovery: "long rest",
 			},
 	},
-	trait : "Dhampir (+2 to one ability score of my choice, and +1 to a different score of my choice)\n  Size: I am Small or Medium (my choice)\n Type: I am Humanoid.\n Spider Climb: I have a climb speed equal to my walking speed. Starting from third level, I can move up, down and across vertical surfaces and upside down along ceilings, while leaving my hands free.\n When I hit a creature that isn't a construct or undead with my bite, I can either gain hit points or bonus to my next attack roll/ability check equal to the piercing damage dealt. /n Deathless Nature: I don't need to breathe.",
+	trait : "Dhampir \n  Size: I am Small or Medium (my choice). Type: I am Humanoid.\nSpider Climb: I have a climb speed equal to my walking speed. Starting from third level, I can move up, down and across vertical surfaces and upside down along ceilings, while leaving my hands free.\n When I hit a creature that isn't a construct or undead with my bite, I can either gain hit points or bonus to my next attack roll/ability check equal to the piercing damage dealt. \n Deathless Nature: I don't need to breathe.",
 };
 
 AddRacialVariant("dhampir", "medium", {
@@ -42,7 +42,7 @@ AddRacialVariant("dhampir", "medium", {
 	name : "Dhampir (medium)",
 	source : ["VRGtR", 2],
 	size : 3,
-	trait : "Dhampir (+2 to one ability score of my choice, and +1 to a different score of my choice)\n Type: I am Humanoid.\n Spider Climb: I have a climb speed equal to my walking speed. Starting from third level, I can move up, down and across vertical surfaces and upside down along ceilings, while leaving my hands free.\n When I hit a creature that isn't a construct or undead with my bite, I can either gain hit points or bonus to my next attack roll/ability check equal to the piercing damage dealt. /n Deathless Nature: I don't need to breathe.",
+	trait : "Dhampir \n  Size: I am Medium. Type: I am Humanoid.\nSpider Climb: I have a climb speed equal to my walking speed. Starting from third level, I can move up, down and across vertical surfaces and upside down along ceilings, while leaving my hands free.\n When I hit a creature that isn't a construct or undead with my bite, I can either gain hit points or bonus to my next attack roll/ability check equal to the piercing damage dealt. \nDeathless Nature: I don't need to breathe.",
 });
 
 AddRacialVariant("dhampir", "small", {
@@ -50,7 +50,7 @@ AddRacialVariant("dhampir", "small", {
 	name : "Dhampir (small)",
 	source : ["VRGtR", 2],
 	size : 4,
-	trait : "Dhampir (+2 to one ability score of my choice, and +1 to a different score of my choice)\n Type: I am Humanoid.\n Spider Climb: I have a climb speed equal to my walking speed. Starting from third level, I can move up, down and across vertical surfaces and upside down along ceilings, while leaving my hands free.\n When I hit a creature that isn't a construct or undead with my bite, I can either gain hit points or bonus to my next attack roll/ability check equal to the piercing damage dealt. /n Deathless Nature: I don't need to breathe.",
+	trait : "Dhampir \n  Size: I am Small. Type: I am Humanoid.\nSpider Climb: I have a climb speed equal to my walking speed. Starting from third level, I can move up, down and across vertical surfaces and upside down along ceilings, while leaving my hands free.\n When I hit a creature that isn't a construct or undead with my bite, I can either gain hit points or bonus to my next attack roll/ability check equal to the piercing damage dealt. \n Deathless Nature: I don't need to breathe.",
 });
 
 
@@ -58,7 +58,7 @@ WeaponsList["dhampir bite"] = {
 	regExpSearch : /^(?=.*dhampir)(?=.*bite).*$/i,
 	name : "Dhampire Bite",
 	source : ["VRGtR", 2],
-	ability : 1,
+	ability : 3,
 	type : "Natural",
 	damage : [1, 4, "piercing"],
 	range : "Melee",
@@ -84,7 +84,7 @@ RaceList["hexblood"] = {
 		adv_vs : ["charmed"]
 	},
 	languageProfs : [1, "Common"],
-	scorestxt : "Hexblood (+2 to one ability score of my choice, and +1 to a different score of my choice)",
+	scorestxt : "Hexblood (+2 to one ability score of my choice, and +1 to a different score of my choice or three different score by 1)",
 	features : {
 		"hex magic (disguise self)" : {
 			name : "Hex Magic (disguise self)",
@@ -147,7 +147,7 @@ RaceList["reborn"] = {
 		adv_vs : ["disease", "poison", "death saves"],
 	},
 	languageProfs : [1, "Common"],
-	scorestxt : "Reborn (+2 to one ability score of my choice, and +1 to a different score of my choice)",
+	scorestxt : "Reborn (+2 to one ability score of my choice, and +1 to a different score of my choice or three different score by 1)",
 	features : {
 		"knowledge from a past life" : {
 			name : "Knowledge from a Past Life",
