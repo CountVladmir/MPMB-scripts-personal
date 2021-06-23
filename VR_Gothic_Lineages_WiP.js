@@ -24,6 +24,7 @@ RaceList["dhampir"] = {
 		climb : { spd : "walk", enc : "walk" }
 			},
 	weapons : ["dhampir bite"],
+	skillstxt : "Choose any two skills",
 	vision : ["Darkvision", 60], 
 	languageProfs : [1, "Common"],
 	scorestxt : "Dhampir (+2 to one ability score of my choice, and +1 to a different score of my choice or three different score by 1)",
@@ -81,6 +82,7 @@ RaceList["hexblood"] = {
 	speed : {
 		walk : { spd : 30, enc : 20 },
 			},
+	skillstxt : "Choose any two skills",
 	vision : ["Darkvision", 60],
 	savetxt : {
 		adv_vs : ["charmed"]
@@ -143,6 +145,7 @@ RaceList["reborn"] = {
 	speed : {
 		walk : { spd : 30, enc : 20 },
 			},
+	skillstxt : "Choose any two skills",
 	vision : ["Darkvision", 60],
 	savetxt : {
 		text : ["Magic can't put me to sleep"],
